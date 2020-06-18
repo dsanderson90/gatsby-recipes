@@ -1,0 +1,30 @@
+# Setup Emotion
+
+[Emotion](https://emotion.sh/) is a powerful CSS-in-JS library that supports both inline CSS styles and styled components. You can use each styling feature individually or together in the same file.
+---
+Install necessary NPM packages
+
+<NPMPackage name="netlify-cms-app"/>
+---
+
+Install the Netlify CMS plugin in gatsby-config.js
+
+<GatsbyPlugin name="gatsby-plugin-netlify-cms"/>
+
+---
+
+Sweet, now it's ready to go.
+Let's also write out an example config.yml file in static/admin
+<File
+  path="static/admin/config.yml"
+  content="https://gist.githubusercontent.com/KyleAMathews/323bacd551df46e8e7b6146cbf827d0b/raw/5c60f168f30c505cff1ff2433e69dabe27ae9738/sample-emotion.js"
+/>
+
+<File
+  path="src/pages/using-emotion.js"
+  content="https://raw.githubusercontent.com/dsanderson90/gatsby-recipes/master/src/pages/using-emotion.js"
+/>
+
+---
+
+Done
