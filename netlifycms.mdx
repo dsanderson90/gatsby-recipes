@@ -1,0 +1,30 @@
+# Setup Emotion
+
+[Netlify CMS](https://www.netlifycms.org/) Netlify CMS is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows. You can use it with any static site generator to create faster, more flexible web projects. Content is stored in your Git repository alongside your code for easier versioning, multi-channel publishing, and the option to handle content updates directly in Git.
+
+---
+
+Install the Netlify CMS gatsby plugin and Netlify CMS App
+(netlify-cms-app && gatsby-plugin-netlify-cms)
+
+<NPMPackage name="netlify-cms-app"/>
+<NPMPackage name="gatsby-plugin-netlify-cms"/>
+
+---
+
+Register the Netlify CMS Gatsby Plugin
+<GatsbyPlugin name="gatsby-plugin-netlify-cms"/>
+
+---
+
+Sweet, now it's ready to go.
+Let's also write out an example config.yml file in static/admin
+<File
+  path="static/admin/config.yml"
+  content="https://raw.githubusercontent.com/dsanderson90/gatsby-recipes/master/config.yml"
+/>
+
+---
+Read more about NetlifyCMS on the official Netlify CMS docs site:
+
+[NetlifyCMS](https://www.netlifycms.org/docs/intro/)
